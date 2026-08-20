@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <!-- Gradients for 3D Isometric block -->
+    <linearGradient id="topFace" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#1E5FC4"/>
+    </linearGradient>
+    <linearGradient id="leftFace" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E5FC4"/>
+      <stop offset="100%" stop-color="#14428B"/>
+    </linearGradient>
+    <linearGradient id="rightFace" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#174FA5"/>
+      <stop offset="100%" stop-color="#0E2F68"/>
+    </linearGradient>
+    <linearGradient id="accentOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5B92E"/>
+      <stop offset="100%" stop-color="#F2941E"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 3D Cube Isometric Base -->
+  <!-- Top Face -->
+  <polygon points="32,4 58,18 32,32 6,18" fill="url(#topFace)"/>
+  
+  <!-- Left Face -->
+  <polygon points="6,18 32,32 32,60 6,46" fill="url(#leftFace)"/>
+  
+  <!-- Right Face -->
+  <polygon points="32,32 58,18 58,46 32,60" fill="url(#rightFace)"/>
+  
+  <!-- Small Isometric Accent Block (Orange) on top -->
+  <polygon points="32,10 42,15 32,20 22,15" fill="#F5B92E"/>
+  <polygon points="22,15 32,20 32,26 22,21" fill="#F2941E"/>
+  <polygon points="32,20 42,15 42,21 32,26" fill="#E23B2E"/>
+
+  <!-- Stylized Monogram "AP" -->
+  <text x="18" y="47" font-family="'Outfit', 'Poppins', sans-serif" font-size="14" font-weight="900" fill="#FFFFFF" transform="skewY(20)">A</text>
+  <text x="36" y="41" font-family="'Outfit', 'Poppins', sans-serif" font-size="14" font-weight="900" fill="#F5B92E" transform="skewY(-20)">P</text>
+</svg>
